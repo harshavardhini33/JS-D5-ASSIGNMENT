@@ -1,0 +1,41 @@
+.main_box{
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
+    width: 250px;
+    height: 370px;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #EBF4F6;
+}
+.align{
+    padding-top: 50px;
+    padding-left: 597px;
+}
+.display{
+    padding-bottom: 50px;
+    width: 240px;
+    height: 50px;
+    text-align: right;
+    
+}
+.all_digits{
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.digit{
+    width:20px;
+    height: 20px;
+    padding: 16px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 2px;
+}
+body{
+    background-color: #37B7C3;
+}
